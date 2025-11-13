@@ -42,8 +42,6 @@ WHERE ranking = 1
 
 3. List all movies released in a specific year (e.g., 2020)
 
--- filter 2020
--- movies
 SELECT * FROM netflix
 WHERE
 	type = "Movie"
